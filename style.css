@@ -16,7 +16,7 @@ body {
 .header-logo {
     padding-left: 180px;
     font-size: 24px;
-    font-weight: extra-bold;
+    font-weight: 700;
 }
 
 .header-links {
@@ -32,7 +32,7 @@ a {
     margin-right: 5px;
 }
 
-.slide-one {
+.hero-section {
     background-color: #1F2937;
     display: flex;
     padding: 130px 180px 130px 180px;
@@ -43,7 +43,7 @@ a {
 h1 {
     margin: 0px;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -76,3 +76,43 @@ button {
     align-items: center;
 }
 
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-container-two {
+    display: flex;
+    justify-content: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 100px;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid #3882f6 4px;
+    border-radius: 10px;
+    margin: 0px;
+
+}
+
+.box-text {
+    text-align: center;
+    width: 150px;
+    color: rgb(143, 148, 150);
+}
