@@ -55,8 +55,7 @@ h1 {
 button {
     background-color: #3882f6;
     color: #F9FAF8;
-    height: 30px;
-    width: 100px;
+    padding: 5px 25px;
     border-radius: 5px;
     border: none;
 }
@@ -141,3 +140,60 @@ button {
     margin-left: auto;
     margin-right: 25px;
 }
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    flex: 1;
+}
+
+.cta-title {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.cta-subtext {
+    color: #F9FAF8;
+    font-weight: light;
+    font-size: 17px;
+}
+
+.cta-button {
+    border: solid #F9FAF8 2px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: 500;
+    padding: 8px 35px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 35px;
+}
+
